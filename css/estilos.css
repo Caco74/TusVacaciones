@@ -1,0 +1,321 @@
+/* html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+ul,
+form,
+footer,
+header,
+menu,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+} */
+
+/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+@media (min-width:320px) {
+  body {
+    background-color: rgba(165, 254, 175);
+    font-family: 'DM Serif Text';
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    position: absolute;
+  }
+  h1, h2, h3, label {
+    font-family: 'Love Ya Like A Sister';
+  }
+  header {
+    background-color: #BE544D;
+    color: #FFF;
+    margin: 0 auto;
+    padding-top: 0.5%;
+    text-align: center;
+  }
+  nav {
+    padding-bottom: 3%;
+  }
+  ul {
+    margin: 0 auto;
+    padding: 0 ;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    font-size: 1rem;
+  }
+  a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .principal {
+    background-image: url('../images/inicial2.jpg');
+    background-position: top;
+    margin-top: 0;
+    min-height: 18rem;
+    padding-top: 6%;
+    width: 100%;
+  }
+  .principal > .contenido {
+    background-color: rgba(200, 254, 175, 0.35);
+    border-radius: 10px;
+    margin: 0 5% 0 5%;
+    padding-left: 1%;
+  }
+  main > .principal > .contenido > h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 4%;
+  }
+  main > .principal > .contenido > p {
+    margin-top: 0;
+  }
+
+  #playa {
+    background-color: #FDFCED;
+    margin: 0 auto;
+    margin-top: -5%;
+    width: 100%;
+  }
+  #playa > .contenido > .descripcion > h2 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+    margin-top: 0;
+  }
+  #playa > .contenido {
+    margin: 0 auto;
+    padding-bottom: 4%;
+    text-align: center;
+    width: 100%;
+  }
+  .imagen-principal img {
+    display: none;
+  }
+  #playa > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+
+  }
+  #playa > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+  #playa {
+    background-color: #FDFCED;
+    margin: 0 auto;
+    margin-top: -5%;
+    width: 100%;
+  }
+  #playa > .contenido > .descripcion > h2 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+    margin-top: 0;
+  }
+  #playa > .contenido {
+    margin: 0 auto;
+    padding-bottom: 4%;
+    text-align: center;
+    width: 100%;
+  }
+  .imagen-principal img {
+    display: none;
+  }
+  #playa > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+  }
+
+
+  #playa > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+  #parque > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+  }
+  #parque > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+  #parque {
+    background-color: #F0F9EA;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #parque > .contenido > .descripcion > h2 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+    margin-top: 0;
+  }
+  #parque > .contenido {
+    margin: 0 auto;
+    padding-bottom: 4%;
+    text-align: center;
+    width: 100%;
+  }
+  .imagen-principal img {
+    display: none;
+  }
+  #parque > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+  }
+  #parque > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+
+  #rio > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+  }
+  #rio > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+  #rio {
+    background-color: #FCF3EA;
+    margin: 0 auto;
+    width: 100%;
+  }
+  #rio > .contenido > .descripcion > h2 {
+    font-size: 3rem;
+    margin-bottom: 2%;
+    margin-top: 0;
+  }
+  #rio > .contenido {
+    margin: 0 auto;
+    padding-bottom: 4%;
+    text-align: center;
+    width: 100%;
+  }
+  .imagen-principal img {
+    display: none;
+  }
+  #rio > .contenido > .imagen-secundaria img {
+    border-radius: 15px;
+    width: 75%;
+  }
+  #rio > .contenido > .descripcion > p {
+    font-size: 0.8rem;
+  }
+  footer {
+    background-color: #FFFFFF;
+    margin-top: -6%;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  .informacion {
+    margin-bottom: 10%;
+  }
+  #email {
+    width: 90%;
+  }
+  textarea {
+    width: 90%;
+  }
+  .contacto {
+    background-color: rgba(255, 0, 0, 0.15);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    border-radius: 4%;
+    margin: 0 auto;
+    width: 80%;
+  }
+  button {
+    background-color: #F7B988;
+    border-radius: 10px;
+    border-style: inherit;
+    font-family: 'Love Ya Like A Sister';
+    font-weight: bold;
+    padding: 3% 2.5% 3% 2.5%;
+  }
+}/* Fin de @media */
+
+/* smartphones, Android phones, landscape iPhone */
+@media (min-width:480px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+@media (min-width:600px) {
+  body {
+    background-color: brown;
+  }
+}
+
+ /* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px) {
+  body {
+    background-color: grey;
+  }
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media (min-width:1025px) {
+  body {
+    background-color: blue;
+  }
+}
+
+ /* hi-res laptops and desktops */
+@media (min-width:1281px) {
+  body {
+    background-color: purple;
+    width: auto;
+  }
+}
+
+/* Mobile First */
+/* ESTILOS NORMALES (Móviles)
+   ========================================================================= */
+/* @media only screen and (max-width: 420px){
+  body {
+    background-color: red;
+  }
+  h1 {
+    text-align: center;
+  }
+} */
+
+
+/* RESPONSIVE
+   ========================================================================= */
+
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+/* @media only screen and (min-width: 421px) {
+  html {
+    width: 100%;
+  }
+  body {
+    background-color: green;
+  }
+} */
+
+/* Tablets en horizonal y escritorios
+   ------------------------------------------------------------------------- */
+/* @media only screen and (min-width: 781px){
+  html {
+    width: 50%;
+    background-color: brown;
+  }
+  body {
+    width: 50%;
+    background-color: purple;
+  }
+  h1 {
+    text-align: right;
+  }
+} */
